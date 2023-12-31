@@ -1,7 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
+#include"ToDo.h"
+#include"ToDoTask.h"
 using namespace std;
 
-
 int main() {
-	// proshu prosheniye. Ya zdelayu po pozje
+	ToDo toDo;
+	
+	toDo.addTask("Work is completed!");
+	toDo.showAll();
 }
